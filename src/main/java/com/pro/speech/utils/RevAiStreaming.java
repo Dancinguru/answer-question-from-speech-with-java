@@ -31,7 +31,7 @@ import org.springframework.core.io.Resource;
 
 public class RevAiStreaming {
 
-  private static String accessToken = "02izLg6RIJaXIE7uaMyyxJfTzWYaKKrzQWvBas2ugbgZ2ypjAmyyC1XX46tJ20sb52vIFavlTs9nPROD0nrATywo0eQ4c";
+  private static String accessToken = "";
   static String res_id;
   public static String streamFromLocalFile(String filePath) throws InterruptedException, IOException {
 
