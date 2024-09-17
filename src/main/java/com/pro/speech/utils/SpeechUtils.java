@@ -16,8 +16,7 @@ public class SpeechUtils {
         throws EngineException, AudioException, EngineStateError,  
         PropertyVetoException {  
         if (desc == null) {  
-            System.setProperty("freetts.voices",  
-                "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");  
+
             desc = new SynthesizerModeDesc(Locale.US);  
             Central.registerEngineCentral("com.sun.speech.freetts.jsapi.FreeTTSEngineCentral");  
             synthesizer = Central.createSynthesizer(desc);  
