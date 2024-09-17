@@ -15,7 +15,7 @@ public class HomeController {
     
     @GetMapping("/")
     public String index() throws Exception {
-        String result = RevAiStreaming.streamFromLocalFile("static/assets/1.mp3");
+        String result = MyRevAiStreaming.streamFromLocalFile("static/assets/1.mp3");
         
         return result;
     }
