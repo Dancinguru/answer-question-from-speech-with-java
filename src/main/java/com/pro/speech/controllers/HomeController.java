@@ -17,7 +17,6 @@ public class HomeController {
     public String index() throws Exception {
         String result = RevAiStreaming.streamFromLocalFile("static/assets/1.mp3");
         
-        SpeechUtils.text2Speech(result);
         return result;
     }
 }
